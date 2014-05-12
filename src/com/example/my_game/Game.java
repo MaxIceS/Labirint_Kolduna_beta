@@ -18,9 +18,9 @@ public class Game extends Activity {
 	final int REQUEST = 1;
 	public Resources res;
 	String[] section;
-	int pos;
+	private String[] namesSections;
+	private int pos;
 	Button btn01;
-	int cnt = 0;
 	ScrollView scrollview;
 
 	@Override
@@ -29,8 +29,7 @@ public class Game extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.game_2);
 
-		res = getResources();
-		final String[] section = res.getStringArray(R.array.section_array);
+		setSectionsAndSectionNames();
 
 		text = (TextView) findViewById(R.id.tvView01);
 		text.setTypeface(Typeface.createFromAsset(getAssets(), "MTCORSVA.TTF"));
@@ -60,37 +59,27 @@ public class Game extends Activity {
 	protected void onSaveInstanceState(Bundle outState) {
 		super.onSaveInstanceState(outState);
 		outState.putInt("count", pos);
-
 	}
 
 	protected void onRestoreInstanceState(Bundle savedInstanceState) {
 		super.onRestoreInstanceState(savedInstanceState);
 		pos = savedInstanceState.getInt("count");
-		res = getResources();
-		final String[] section = res.getStringArray(R.array.section_array);
-		Resources res2 = getResources();
-		final String[] section2 = res
-				.getStringArray(R.array.array_section_name);
-		text.setText(section2[pos] + "\n" + section[pos] + "\n");
+		setSectionsAndSectionNames();
+		text.setText(namesSections[pos] + "\n" + section[pos] + "\n");
 	}
 
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		Log.d("myLogs", "requestCode = " + requestCode + ", resultCode = "
 				+ resultCode);
-		// если пришло ОК
+		// if OK
 		if (resultCode == RESULT_OK) {
 			int position = data.getIntExtra("position", REQUEST);
 
 			pos = position;
-
 		}
-		res = getResources();
-		final String[] section = res.getStringArray(R.array.section_array);
-		Resources res2 = getResources();
-		final String[] section2 = res
-				.getStringArray(R.array.array_section_name);
-		text.setText(section2[pos] + "\n" + section[pos] + "\n");
+		setSectionsAndSectionNames();
+		text.setText(namesSections[pos] + "\n" + section[pos] + "\n");
 		scrollview.post(new Runnable() {
 			@Override
 			public void run() {
@@ -98,6 +87,12 @@ public class Game extends Activity {
 			}
 		});
 
+	}
+
+	private void setSectionsAndSectionNames() {
+		res = getResources();
+		section = res.getStringArray(R.array.section_array);
+		namesSections = res.getStringArray(R.array.array_section_name);
 	}
 
 }

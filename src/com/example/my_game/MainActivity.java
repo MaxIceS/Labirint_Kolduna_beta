@@ -86,7 +86,6 @@ public class MainActivity extends Activity implements OnClickListener {
 		switch (v.getId()) {
 		case R.id.btn1:
 			intent = new Intent(this, Game.class);
-			
 			startActivity(intent);
 			break;
 		case R.id.btn2:
