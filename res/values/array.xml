@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="section_array">
+        <item> @string/start</item>
+        <item> @string/section1</item>
+        <item> @string/section2</item>
+        <item> @string/section3</item>
+        <item> @string/section4</item>
+        <item> @string/section5</item>
+        <item> @string/section6</item>
+        <item> @string/section7</item>
+        <item> @string/section8</item>
+        <item> @string/section9</item>
+        <item> @string/section10</item>
+        <item> @string/section11</item>
+        <item> @string/section12</item>
+        <item> @string/section13</item>
+        <item> @string/section14</item>
+        <item> @string/section15</item>
+        <item> @string/section16</item>
+        <item> @string/section17</item>
+        <item> @string/section18</item>
+        <item> @string/section19</item>
+        <item> @string/section20</item>
+        <item> @string/section21</item>
+        <item> @string/section22</item>
+        <item> @string/section23</item>
+        <item> @string/section24</item>
+        <item> @string/section25</item>
+        <item> @string/section26</item>
+        <item> @string/section27</item>
+        <item> @string/section28</item>
+        <item> @string/section29</item>
+        <item> @string/section30</item>
+        <item> @string/section31</item>
+        <item> @string/section32</item>
+        <item> @string/section33</item>
+        <item> @string/section34</item>
+        <item> @string/section35</item>
+        <item> @string/section36</item>
+        <item> @string/section37</item>
+        <item> @string/section38</item>
+        <item> @string/section39</item>
+        <item> @string/section40</item>
+        <item> @string/section41</item>
+        <item> @string/section42</item>
+        <item> @string/section43</item>
+        <item> @string/section44</item>
+        <item> @string/section45</item>
+        <item> @string/section46</item>
+        <item> @string/section47</item>
+        <item> @string/section48</item>
+        <item> @string/section49</item>
+        <item> @string/section50</item>
+        <item> @string/section51</item>
+        <item> @string/section52</item>
+        <item> @string/section53</item>
+        <item> @string/section54</item>
+        <item> @string/section55</item>
+        <item> @string/section56</item>
+        <item> @string/section57</item>
+        <item> @string/section58</item>
+        <item> @string/section59</item>
+        <item> @string/section60</item>
+        <item> @string/section61</item>
+        <item> @string/section62</item>
+        <item> @string/section63</item>
+        <item> @string/section64</item>
+        <item> @string/section65</item>
+        <item> @string/section66</item>
+        <item> @string/section67</item>
+        <item> @string/section68</item>
+        <item> @string/section69</item>
+        <item> @string/section70</item>
+        <item> @string/section71</item>
+        <item> @string/section72</item>
+        <item> @string/section73</item>
+        <item> @string/section74</item>
+        <item> @string/section75</item>
+        <item> @string/section76</item>
+        <item> @string/section77</item>
+        <item> @string/section78</item>
+        <item> @string/section79</item>
+        <item> @string/section80</item>
+        <item> @string/section81</item>
+        <item> @string/section82</item>
+        <item> @string/section83</item>
+        <item> @string/section84</item>
+        <item> @string/section85</item>
+        <item> @string/section86</item>
+        <item> @string/section87</item>
+        <item> @string/section88</item>
+        <item> @string/section89</item>
+        <item> @string/section90</item>
+        <item> @string/section91</item>
+        <item> @string/section92</item>
+        <item> @string/section93</item>
+        <item> @string/section94</item>
+        <item> @string/section95</item>
+        <item> @string/section96</item>
+        <item> @string/section97</item>
+        <item> @string/section98</item>
+        <item> @string/section99</item>
+        <item> @string/section100</item>
+        <item> @string/section101</item>
+        <item> @string/section102</item>
+        <item> @string/section103</item>
+        <item> @string/section104</item>
+        <item> @string/section105</item>
+        <item> @string/section106</item>
+        <item> @string/section107</item>
+        <item> @string/section108</item>
+        <item> @string/section109</item>
+        <item> @string/section110</item>
+        <item> @string/section111</item>
+        <item> @string/section112</item>
+        <item> @string/section113</item>
+        <item> @string/section114</item>
+        <item> @string/section115</item>
+        <item> @string/section116</item>
+        <item> @string/section117</item>
+        <item> @string/section118</item>
+        <item> @string/section119</item>
+        <item> @string/section120</item>
+        <item> @string/section121</item>
+        <item> @string/section122</item>
+        <item> @string/section123</item>
+        <item> @string/section124</item>
+        <item> @string/section125</item>
+        <item> @string/section126</item>
+        <item> @string/section127</item>
+        <item> @string/section128</item>
+        <item> @string/section129</item>
+        <item> @string/section130</item>
+        <item> @string/section131</item>
+        <item> @string/section132</item>
+        <item> @string/section133</item>
+        <item> @string/section134</item>
+        <item> @string/section135</item>
+        <item> @string/section136</item>
+        <item> @string/section137</item>
+        <item> @string/section138</item>
+        <item> @string/section139</item>
+        <item> @string/section140</item>
+        <item> @string/section141</item>
+        <item> @string/section142</item>
+        <item> @string/section143</item>
+        <item> @string/section144</item>
+        <item> @string/section145</item>
+        <item> @string/section146</item>
+        <item> @string/section147</item>
+        <item> @string/section148</item>
+        <item> @string/section149</item>
+        <item> @string/section150</item>
+        <item> @string/section151</item>
+        <item> @string/section152</item>
+        <item> @string/section153</item>
+        <item> @string/section154</item>
+        <item> @string/section155</item>
+        <item> @string/land_of_nod</item>        
+    </string-array>
+    
+    <string-array name="array_section_name">
+        <item> Начало </item>        
+        <item> Секция 1</item>
+        <item> Секция 2</item>
+        <item> Секция 3</item>
+        <item> Секция 4</item>
+        <item> Секция 5</item>
+        <item> Секция 6</item>
+        <item> Секция 7</item>
+        <item> Секция 8</item>
+        <item> Секция 9</item>
+        <item> Секция 10</item>        
+        <item> Секция 11</item>
+        <item> Секция 12</item>
+        <item> Секция 13</item>
+        <item> Секция 14</item>
+        <item> Секция 15</item>
+        <item> Секция 16</item>
+        <item> Секция 17</item>
+        <item> Секция 18</item>
+        <item> Секция 19</item>
+        <item> Секция 20</item>       
+        <item> Секция 21</item>
+        <item> Секция 22</item>
+        <item> Секция 23</item>
+        <item> Секция 24</item>
+        <item> Секция 25</item>
+        <item> Секция 26</item>
+        <item> Секция 27</item>
+        <item> Секция 28</item>
+        <item> Секция 29</item>
+        <item> Секция 30</item>     
+        <item> Секция 31</item>
+        <item> Секция 32</item>
+        <item> Секция 33</item>
+        <item> Секция 34</item>
+        <item> Секция 35</item>
+        <item> Секция 36</item>
+        <item> Секция 37</item>
+        <item> Секция 38</item>
+        <item> Секция 39</item>
+        <item> Секция 40</item>        
+        <item> Секция 41</item>
+        <item> Секция 42</item>
+        <item> Секция 43</item>
+        <item> Секция 44</item>
+        <item> Секция 45</item>
+        <item> Секция 46</item>
+        <item> Секция 47</item>
+        <item> Секция 48</item>
+        <item> Секция 49</item>
+        <item> Секция 50</item>       
+        <item> Секция 51</item>
+        <item> Секция 52</item>
+        <item> Секция 53</item>
+        <item> Секция 54</item>
+        <item> Секция 55</item>
+        <item> Секция 56</item>
+        <item> Секция 57</item>
+        <item> Секция 58</item>
+        <item> Секция 59</item>
+        <item> Секция 60</item>        
+        <item> Секция 61</item>
+        <item> Секция 62</item>
+        <item> Секция 63</item>
+        <item> Секция 64</item>
+        <item> Секция 65</item>
+        <item> Секция 66</item>
+        <item> Секция 67</item>
+        <item> Секция 68</item>
+        <item> Секция 69</item>
+        <item> Секция 70</item>      
+        <item> Секция 71</item>
+        <item> Секция 72</item>
+        <item> Секция 73</item>
+        <item> Секция 74</item>
+        <item> Секция 75</item>
+        <item> Секция 76</item>
+        <item> Секция 77</item>
+        <item> Секция 78</item>
+        <item> Секция 79</item>
+        <item> Секция 80</item>        
+        <item> Секция 81</item>
+        <item> Секция 82</item>
+        <item> Секция 83</item>
+        <item> Секция 84</item>
+        <item> Секция 85</item>
+        <item> Секция 86</item>
+        <item> Секция 87</item>
+        <item> Секция 88</item>
+        <item> Секция 89</item>
+        <item> Секция 90</item>      
+        <item> Секция 91</item>
+        <item> Секция 92</item>
+        <item> Секция 93</item>
+        <item> Секция 94</item>
+        <item> Секция 95</item>
+        <item> Секция 96</item>
+        <item> Секция 97</item>
+        <item> Секция 98</item>
+        <item> Секция 99</item>
+        <item> Секция 100</item>
+        <item> Секция 101</item>
+        <item> Секция 102</item>
+        <item> Секция 103</item>
+        <item> Секция 104</item>
+        <item> Секция 105</item>
+        <item> Секция 106</item>
+        <item> Секция 107</item>
+        <item> Секция 108</item>
+        <item> Секция 109</item>
+        <item> Секция 110</item>        
+        <item> Секция 111</item>
+        <item> Секция 112</item>
+        <item> Секция 113</item>
+        <item> Секция 114</item>
+        <item> Секция 115</item>
+        <item> Секция 116</item>
+        <item> Секция 117</item>
+        <item> Секция 118</item>
+        <item> Секция 119</item>
+        <item> Секция 120</item>       
+        <item> Секция 121</item>
+        <item> Секция 122</item>
+        <item> Секция 123</item>
+        <item> Секция 124</item>
+        <item> Секция 125</item>
+        <item> Секция 126</item>
+        <item> Секция 127</item>
+        <item> Секция 128</item>
+        <item> Секция 129</item>
+        <item> Секция 130</item>     
+        <item> Секция 131</item>
+        <item> Секция 132</item>
+        <item> Секция 133</item>
+        <item> Секция 134</item>
+        <item> Секция 135</item>
+        <item> Секция 136</item>
+        <item> Секция 137</item>
+        <item> Секция 138</item>
+        <item> Секция 139</item>
+        <item> Секция 140</item>        
+        <item> Секция 141</item>
+        <item> Секция 142</item>
+        <item> Секция 143</item>
+        <item> Секция 144</item>
+        <item> Секция 145</item>
+        <item> Секция 146</item>
+        <item> Секция 147</item>
+        <item> Секция 148</item>
+        <item> Секция 149</item>
+        <item> Секция 150</item>       
+        <item> Секция 151</item>
+        <item> Секция 152</item>
+        <item> Секция 153</item>
+        <item> Секция 154</item>
+        <item> Секция 155</item>
+        <item> Сонное царство </item>        
+    </string-array>
+
+</resources>
